@@ -1,12 +1,35 @@
 site_name: Double D Labs
+site_author: David Beihl
 site_url: https://double-d-labs.github.io
 site_description: The outside website for Double D Labs
+repo_name: double-d-labs
 
 theme:
   name: material
   palette:
-    primary: indigo
-    accent: indigo
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - search.suggest
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-\.]+'
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
 
 nav:
   - Home: index.md
