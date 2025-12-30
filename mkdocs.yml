@@ -1,0 +1,12 @@
+site_name: Double D Labs
+site_url: https://double-d-labs.github.io
+site_description: The outside website for Double D Labs
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+
+nav:
+  - Home: index.md
