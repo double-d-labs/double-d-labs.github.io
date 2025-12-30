@@ -2,7 +2,7 @@ site_name: Double D Labs
 site_author: David Beihl
 site_url: https://double-d-labs.github.io
 site_description: The outside website for Double D Labs
-repo_name: double-d-labs
+repo_name: double-d-labs/double-d-labs.github.io
 
 theme:
   name: material
